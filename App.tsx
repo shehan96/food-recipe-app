@@ -13,10 +13,11 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>{count}</Text>
-      <Text style={{margin: 8, borderWidth: 1, borderColor: 'red', padding: 16, borderRadius: 5}}>Inline Style</Text>
+      <Text style={{ margin: 8, borderWidth: 1, borderColor: 'red', padding: 16, borderRadius: 5 }}>Inline Style</Text>
       <Text style={styles.textInput}>Hello World</Text>
       <Button title='Click Me' onPress={handleOnPress} />
-      <TouchableOpacity style={{margin: 4, padding: 4, backgroundColor: '#f9f9f9'}}>
+      <Button title='Click Me' onPress={handleOnPress} />
+      <TouchableOpacity style={{ margin: 4, padding: 4, backgroundColor: '#f9f9f9' }}>
         <Text>Press Me</Text>
       </TouchableOpacity>
     </View>
